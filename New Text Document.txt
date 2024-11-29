@@ -1,0 +1,24 @@
+$(document).ready(function () {
+
+	$(".login_click").click(function () {
+       		$(this).next(".dropdown-body").slideToggle("fast");
+		$(this).parent('div').parent('div').hide("normal");
+    	});
+
+
+});
+
+ 	$(window).resize(function () {
+                 if ($(window).width() <= 768)
+                      $('body').addClass('mini-sidebar');
+                  else
+                      $('body').removeClass('mini-sidebar');
+     });
+
+.removeClass('');
+.addClass('');
+.slideUp();
+.toggle();
+
+:nth-child(2n)
+:nth-child(3)
